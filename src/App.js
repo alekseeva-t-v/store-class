@@ -1,7 +1,9 @@
 import ShopItemClass from './components/ShopItemClass';
 
-import './App.css';
-
+/**
+ * Основной компонент приложения, отвечающий за отображение всех элементов на странице. Дочерний компонент ShopItemFunc (карточка отображения товара)
+ *
+ */
 function App() {
   const item = {
     brand: 'Tiger of Sweden',

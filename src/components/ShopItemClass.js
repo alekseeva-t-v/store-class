@@ -1,6 +1,11 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * Компонент отображающий карточку интернет магазина
+ *
+ * @param {object} props.item объект с данными товара, которые необходимо отобразить на карточке товара интернет магазина
+ */
 class ShopItemClass extends Component {
   render() {
     const { item } = this.props;
